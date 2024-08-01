@@ -1,0 +1,43 @@
+*{
+    margin: 0%;
+    
+}
+.box1{
+    background-color:  rgb(189, 91, 38);
+    width: 20%;
+    height: auto;
+    padding-bottom: 350px;
+    padding-top: 30px;
+    position: relative;
+    position: fixed;
+}
+.circle{
+    height: 140px;
+    width: 140px;
+    border-radius: 80px;
+    border: 1px solid white ;
+    margin-left: 60px;
+    margin-bottom: 40px;
+    margin-top: 50px;
+    background-image:  url(images/PROFILE\ pic.jpeg);
+}
+/* img{
+    height: 140px;
+    width: 140px;
+    border-radius: 70px;
+} */
+body{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style-type: none;
+    margin-left: 40px;
+    
+}
+/* box2 */
+.box2{
+    margin-left: 30%;
+    margin-top: 100px;
+    padding-right: 400px;
+ }
