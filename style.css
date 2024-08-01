@@ -1,9 +1,11 @@
 *{
     margin: 0%;
+    scroll-behavior: smooth;
     
 }
 .box1{
-    background-color:  rgb(189, 91, 38);
+    /* background-color: #bd5d38; */
+    background-color: #4a90e2;
     width: 20%;
     height: auto;
     padding-bottom: 350px;
@@ -30,14 +32,94 @@ body{
     margin: 0;
     padding: 0;
 }
-ul{
+.nav{
     list-style-type: none;
-    margin-left: 40px;
-    
+    margin-left: 51px;    
+    color: white;
+    font-weight: bold; 
 }
 /* box2 */
+.content{
+    margin-left: 25%;
+    
+}
 .box2{
-    margin-left: 30%;
+    /* margin-left: 25%; */
     margin-top: 100px;
-    padding-right: 400px;
+     font-size: 30px;
+   display: inline-block;
+   padding: 15px;
  }
+span{
+    color:#4a90e2;
+}
+h1{
+    font-size: 50px;
+    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
+}
+.intro{
+    font-size: 30px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* box 3 */
+.box3{
+    padding: 15px;
+    
+}
+h2{
+    color: 4a90e2;
+    font-size: 50px;
+    margin-left: -18px;
+    color: #4a90e2;
+
+}
+h3{
+    font-size: 35px;
+    margin-bottom: 15px;
+    margin-left: -18px;
+    margin-top: 50px;
+}
+h4{
+    font-size: 25px;
+    color: #6c757d;
+    
+}
+h4,p{
+    margin-left: -18px;
+}
+.tools>i{
+    width: 200px;;
+    
+}
+i{
+    
+}
+.SKILLS{
+    margin-bottom: 20px;
+}
+.WORKFLOW{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.ticklist{
+    list-style-image: ;
+    list-style-position: inside;
+
+}
+.upperp{
+    margin-bottom: 10px;
+}
+.box6{
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+.box7{
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
