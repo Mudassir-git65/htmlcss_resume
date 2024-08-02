@@ -4,8 +4,8 @@
     
 }
 .box1{
-    /* background-color: #bd5d38; */
-    background-color: #4a90e2;
+    background-color: #bd5d38;
+    /* background-color: #4a90e2; */
     width: 20%;
     height: auto;
     padding-bottom: 350px;
@@ -19,7 +19,7 @@
     border-radius: 80px;
     border: 1px solid white ;
     margin-left: 60px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     margin-top: 50px;
     background-image:  url(images/PROFILE\ pic.jpeg);
 }
@@ -38,41 +38,55 @@ body{
     color: white;
     font-weight: bold; 
 }
+.navitem{
+    text-decoration: none;
+    color: white;
+}
 /* box2 */
+
 .content{
-    margin-left: 25%;
+    margin-left: 20%;
+   display: inline-block;
+  
+ }
+ .box2{
+   margin: 130px 80px;
+  ;
+
+   
     
 }
-.box2{
-    /* margin-left: 25%; */
-    margin-top: 100px;
-     font-size: 30px;
-   display: inline-block;
-   padding: 15px;
- }
-span{
-    color:#4a90e2;
-}
+
 h1{
-    font-size: 50px;
+    font-size: 70px;
     font-weight: 800;
     font-family: 'Times New Roman', Times, serif;
+    color: #6c757d;
+}
+span{
+    /* color:#4a90e2; */
+    color: #bd5d38;
 }
 .intro{
-    font-size: 30px;
+    font-size: 17px;
+    color: #6c757d;
+    word-spacing: 2px;
     font-weight: lighter;
     font-family: Arial, Helvetica, sans-serif;
 }
 /* box 3 */
 .box3{
-    padding: 15px;
+  margin: 130px 80px;
+  
+  
     
 }
 h2{
     color: 4a90e2;
     font-size: 50px;
     margin-left: -18px;
-    color: #4a90e2;
+    /* color: #4a90e2; */
+    color: #343a40;
 
 }
 h3{
@@ -80,6 +94,7 @@ h3{
     margin-bottom: 15px;
     margin-left: -18px;
     margin-top: 50px;
+    color: #343a40;
 }
 h4{
     font-size: 25px;
@@ -104,22 +119,46 @@ i{
     margin-bottom: 10px;
 }
 .ticklist{
-    list-style-image: ;
+    list-style-image: url(images/check-solid\ \(1\).svg);
     list-style-position: inside;
+    color: #6c757d;
+    font-size: 20px;
 
 }
 .upperp{
     margin-bottom: 10px;
+    color: #6c757d;
+    font-size: 20px;
+    word-spacing: 2px;
+}
+.box4{
+    margin: 130px 0px;
+}
+.box5{
+    margin: 130px 0px;
+
 }
 .box6{
-    padding-bottom: 5rem;
-    padding-top: 5rem;
-    padding-left: 3rem;
-    padding-right: 3rem;
+    margin: 130px 0px;
+   
 }
 .box7{
-    padding-bottom: 5rem;
-    padding-top: 5rem;
-    padding-left: 3rem;
-    padding-right: 3rem;
+
+     margin: 130px 0px;
+}
+p{
+    font-size: 20px;
+    color: #6c757d;
+    word-spacing: 2px;
+}
+.trophy{
+    font-size: 25px;
+    color: #6c757d;
+    list-style-image: url(images/trophy-solid.svg);
+}
+.date{
+    color: #bd5d38;
+    /* color: #4a90e2; */
+    float: right;
+    font-size: 15px;
 }
