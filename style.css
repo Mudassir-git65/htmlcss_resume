@@ -17,17 +17,17 @@
     height: 140px;
     width: 140px;
     border-radius: 80px;
-    border: 1px solid white ;
+    border: 6px solid #ca7d60;
     margin-left: 60px;
     margin-bottom: 20px;
     margin-top: 50px;
-    background-image:  url(images/PROFILE\ pic.jpeg);
+    /* background-image:  url(images/MudassirProfile.jpg); */
 }
-/* img{
+ img{
     height: 140px;
     width: 140px;
     border-radius: 70px;
-} */
+ } 
 body{
     margin: 0;
     padding: 0;
@@ -40,7 +40,15 @@ body{
 }
 .navitem{
     text-decoration: none;
-    color: white;
+    color: #ca7d60;
+}
+.nav1stitem{
+    text-decoration: none;
+    color: #fff;
+}
+.navitem:hover{
+    color: #fff;
+    scroll-behavior: auto;
 }
 /* box2 */
 
@@ -51,11 +59,29 @@ body{
  }
  .box2{
    margin: 130px 80px;
-  ;
+  
 
-   
-    
 }
+.gmail{
+    text-decoration: none;
+    color: #bd5d38;
+}
+
+.icons {
+    font-size: 1.8em;
+    color: white;
+    margin-top: 50px;
+    
+  }
+.icons i {
+    padding: 20px;
+    border-radius: 48%;
+    /* background-color: rgb(87, 82, 82); */
+    background-color: #bd5d38;
+  }
+ 
+
+
 
 h1{
     font-size: 70px;
@@ -65,7 +91,10 @@ h1{
 }
 span{
     /* color:#4a90e2; */
-    color: #bd5d38;
+    color: #bd5d38
+}
+.subheading{
+    color: #6c757d;
 }
 .intro{
     font-size: 17px;
@@ -105,7 +134,8 @@ h4,p{
     margin-left: -18px;
 }
 .tools>i{
-    width: 200px;;
+    font-size: 80px;
+    color: #6c757d;
     
 }
 i{
@@ -152,7 +182,7 @@ p{
     word-spacing: 2px;
 }
 .trophy{
-    font-size: 25px;
+    font-size: 5px;
     color: #6c757d;
     list-style-image: url(images/trophy-solid.svg);
 }
@@ -161,4 +191,7 @@ p{
     /* color: #4a90e2; */
     float: right;
     font-size: 15px;
+}
+hr{
+    color: ;
 }
