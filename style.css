@@ -4,8 +4,10 @@
     
 }
 .box1{
-    background-color: #bd5d38;
-    /* background-color: #4a90e2; */
+    /* background-color: #bd5d38; */
+    /* background-color: #bd5d38; */
+    background-color: rgb(216, 91, 23);
+    /* background-color: orange; */
     width: 20%;
     height: auto;
     padding-bottom: 350px;
@@ -17,7 +19,7 @@
     height: 140px;
     width: 140px;
     border-radius: 80px;
-    border: 6px solid #ca7d60;
+    border: 8px solid rgb(218, 125, 75);
     margin-left: 60px;
     margin-bottom: 20px;
     margin-top: 50px;
@@ -37,17 +39,18 @@ body{
     margin-left: 51px;    
     color: white;
     font-weight: bold; 
+    
 }
 .navitem{
     text-decoration: none;
-    color: #ca7d60;
+    color: white
 }
 .nav1stitem{
     text-decoration: none;
     color: #fff;
 }
 .navitem:hover{
-    color: #fff;
+    /* color: ; */
     scroll-behavior: auto;
 }
 /* box2 */
@@ -64,7 +67,7 @@ body{
 }
 .gmail{
     text-decoration: none;
-    color: #bd5d38;
+    color:  rgb(216, 91, 23);
 }
 
 .icons {
@@ -77,7 +80,8 @@ body{
     padding: 20px;
     border-radius: 48%;
     /* background-color: rgb(87, 82, 82); */
-    background-color: #bd5d38;
+    background-color:  rgb(216, 91, 23);
+    /* background-color: black; */
   }
  
 
@@ -87,18 +91,21 @@ h1{
     font-size: 70px;
     font-weight: 800;
     font-family: 'Times New Roman', Times, serif;
-    color: #6c757d;
+    color: black;
 }
 span{
     /* color:#4a90e2; */
-    color: #bd5d38
+    /* color: #bd5d38 */
+    color:  rgb(216, 91, 23);
 }
 .subheading{
-    color: #6c757d;
+    color: black;
+    font-weight: lighter;
+    
 }
 .intro{
     font-size: 17px;
-    color: #6c757d;
+    color: black;
     word-spacing: 2px;
     font-weight: lighter;
     font-family: Arial, Helvetica, sans-serif;
@@ -182,12 +189,13 @@ p{
 }
 .trophy{
     font-size: 25px;
-    color: #6c757d;
+    /* color: #6c757d; */
     list-style-image: url(images/trophy-solid\ \(4\).svg);
 }
 .date{
-    color: #bd5d38;
+    /* color: #bd5d38; */
     /* color: #4a90e2; */
+    color:  rgb(216, 91, 23);
     float: right;
     font-size: 15px;
 }
