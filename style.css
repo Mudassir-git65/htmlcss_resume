@@ -45,6 +45,14 @@
     border-radius: 70px;
     
  } 
+ img{
+    animation-name: rotateIn;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+ }
 body{
     margin: 0;
     padding: 0;
@@ -53,14 +61,13 @@ body{
     list-style-type: none;
     margin-left: 51px;    
     color: white;
-    font-weight: bold; 
-    
-    
-}
+    font-weight: bold;
+ }
 .navitem{
     text-decoration: none;
-    color: white
+    color: white;
 }
+
 .nav1stitem{
     text-decoration: none;
     color: #fff;
@@ -81,6 +88,22 @@ body{
   
 
 }
+
+/* .glow{
+    animation: glow 2s infinite ease-in-out;
+     }
+    @keyframes glow {
+        0% {
+          text-shadow: 0 0 10px #f0f, 0 0 20px #0ff, 0 0 30px #f0f;
+        }
+        50% {
+          text-shadow: 0 0 20px #ff0, 0 0 30px #f00, 0 0 40px #ff0;
+        }
+        100% {
+          text-shadow: 0 0 10px #f0f, 0 0 20px #0ff, 0 0 30px #f0f;
+        }
+      } */
+
 .gmail{
     text-decoration: none;
     color:  rgb(216, 91, 23);
@@ -92,6 +115,7 @@ body{
     margin-top: 50px;
     
   }
+  
 .icons i {
     padding: 20px;
     border-radius: 48%;
